@@ -1,0 +1,15 @@
+.newsfeed {
+  flex: 0.7;
+}
+
+.newsfeed__portfolio {
+  text-align: left;
+}
+
+.newsfeed__portfolio h1 {
+  margin: 0px;
+}
+
+.newsfeed__portfolio p {
+  margin: 0;
+}
