@@ -1,0 +1,6 @@
+.linegraph {
+  height: 200px;
+}
+canvas {
+  height: 100% !important;
+}

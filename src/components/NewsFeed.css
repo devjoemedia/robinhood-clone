@@ -13,3 +13,44 @@
 .newsfeed__portfolio p {
   margin: 0;
 }
+
+.newsfeed__chartSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.newsfeed__buying--section {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  border-bottom: 1px solid #42494D;
+}
+
+.newsfeed__market--section{
+  margin-top: 70px;
+}
+
+.newsfeed__market--content{
+  height: 100px;
+  border: 1px solid #42494D;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.newsfeed__market--content p {
+  display: flex;
+  justify-content: space-between;
+}
+
+.newsfeed__market--content h1 {
+  font-size: 14px;
+  color: #5AC53B;
+}
+
+.newsfeed__market--section .controls {
+  text-align: center;
+  padding: 10px;
+}

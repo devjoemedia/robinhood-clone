@@ -1,0 +1,30 @@
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.row:hover {
+  background: #31363A;
+}
+
+.row p {
+  font-size: 12px;
+}
+
+.row__intro {
+  text-align: left;
+}
+
+.row__intro h1 {
+  font-size: 15px;
+}
+
+.row__numbers {
+  text-align: right;
+}
+.row__numbers .row__percentage {
+  color: #5AC53B;
+}
